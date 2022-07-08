@@ -16,21 +16,22 @@ font-family: 'Kanit', sans-serif;
   display: flex;
   justify-content: center;
 }
-.social-media ul {
- list-style-type: none;
+
+.social-media a{
+ height: 20px;
+ width: 20px;
+ margin: 0 4px;
+ align-items: center;
+  justify-content:center;
+  color:#fff;
+  transition-duration: 500ms;
+}
+.social-media a:hover{
+  color: blue;
  
+  
 }
-.social-media ul li{
- text-decoration: none;
-}
-.social-media ul li a{
-  color: white;
-  padding:10px;
-  transition-duration:500ms;
-}
-.social-media ul li a:hover{
-  color:blue;
-}
+
 
 
 /*---skills card shadow*/
